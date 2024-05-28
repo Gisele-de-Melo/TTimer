@@ -9,3 +9,8 @@
 
 - Esse exemplo foi criado para ilustrar o uso do componente TTimer.
 O conteúdo desse código é simplesmente em caráter de aprendizado, portanto, não me responsabilizo pelo seu uso indevido.
+
+# Blog
+- Content available at:
+- Conteúdo disponível em:
+  https://codedelphi.com/ttimer/
