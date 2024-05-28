@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2024/05/28 11:33:33.244,=D:\Projetos Delphi 11\Unit1.pas</Transaction>
+    <Transaction>2024/05/28 11:38:38.739,D:\Blog Delphi\projetos\TTimer\Unit1.pas=D:\Projetos Delphi 11\Unit1.pas</Transaction>
+    <Transaction>2024/05/28 11:38:38.739,D:\Blog Delphi\projetos\TTimer\Unit1.dfm=D:\Projetos Delphi 11\Unit1.dfm</Transaction>
+    <Transaction>2024/05/28 11:38:41.506,D:\Blog Delphi\projetos\TTimer\Project1.dproj=D:\Projetos Delphi 11\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
