@@ -12,11 +12,9 @@
 unit Unit1;
 
 interface
-
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls;
-
 type
   TForm1 = class(TForm)
     Timer1: TTimer;
@@ -31,14 +29,10 @@ type
   public
     { Public declarations }
   end;
-
 var
   Form1: TForm1;
-
 implementation
-
 {$R *.dfm}
-
 procedure TForm1.Button1Click(Sender: TObject);
 begin
   // Inicia o contador ao clicar no botão
@@ -46,7 +40,6 @@ begin
   Timer1.Enabled := True;
   Label1.Caption := 'Tempo decorrido: 0 segundos';
 end;
-
 procedure TForm1.FormCreate(Sender: TObject);
 begin
   // Define o intervalo do timer em milissegundos (1000ms = 1 segundo)
@@ -54,7 +47,6 @@ begin
   //Define que o contador não será inicializado ao abrir o formulário.
   Timer1.Enabled := False;
 end;
-
 procedure TForm1.Timer1Timer(Sender: TObject);
 var
   ElapsedTime: TDateTime;
@@ -64,7 +56,5 @@ begin
   // Atualiza o rótulo com o tempo decorrido formatado
   Label1.Caption := 'Tempo decorrido: ' + FormatDateTime('hh:nn:ss', ElapsedTime);
 end;
-
 end.
-
 
